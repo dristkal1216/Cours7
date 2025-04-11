@@ -1,0 +1,55 @@
+[
+  
+    {
+      "id": 1,
+      "name": "Sword of Destiny",
+      "description": "A legendary sword that grants its wielder immense power.",
+      "type": "weapon",
+      "rarity": "legendary",
+      "attributes": {
+        "attack": 50,
+        "defense": 10
+      }
+    },
+    {
+      "id": 2,
+      "name": "Shield of Valor",
+      "description": "A sturdy shield that can withstand any attack.",
+      "type": "armor",
+      "rarity": "rare",
+      "attributes": {
+        "attack": 5,
+        "defense": 40
+      }
+    },
+    {
+      "id": 3,
+      "name": "Potion of Healing",
+      "description": "A potion that restores health.",
+      "type": "consumable",
+      "rarity": "common",
+      "attributes": {
+        "healing": 20
+      }
+    },
+    {
+      "id": 4,
+      "name": "Ring of Wisdom",
+      "description": "A ring that increases the wearer's intelligence.",
+      "type": "accessory",
+      "rarity": "uncommon",
+      "attributes": {
+        "intelligence": 15
+      }
+    },
+    {
+      "id": 5,
+      "name": "Boots of Speed",
+      "description": "Boots that increase the wearer's movement speed.",
+      "type": "armor",
+      "rarity": "rare",
+      "attributes": {
+        "speed": 10
+      }
+    }
+]

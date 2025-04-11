@@ -1,0 +1,16 @@
+{
+  "name": "cours7",
+  "version": "1.0.0",
+  "description": "Application Web avec Express.js",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon serveur.js"
+  },
+  "author": "Laurie",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="/js/main.js"></script>
+  </head>
+  <body>
+    <header id="site-header">
+      <!-- Commentaire -->
+      <nav id="site-top-nav">
+        <picture class="nav-element site-top-nav-logo">
+          <source srcset="../img/logo.jpg" type="image/webp" />
+          <img src="img/logo.jpg" alt="logo" />
+        </picture>
+        <ul class="site-top-nav-main">
+          <li data-url="/" class="nav-element nav-active">Accueil</li>
+          <li data-url="/character" class="nav-element">Characters</li>
+          <li data-url="/item" class="nav-element">Items</li>
+          <li data-url="/apropos" class="nav-element">À Propos</li>
+          <li data-url="/contact" class="nav-element">Contact</li>
+        </ul>
+        <ul class="site-top-nav-login">
+          ${App.user ? `
+          <li data-url="/profile/index/" class="nav-element">Profil</li>
+          <li data-url="/login/logout/" class="nav-element">Logout</li>
+          ` : `
+          <li data-url="/login/index/" class="nav-element">Login</li>
+          ` }
+        </ul>
+      </nav>
+      <img
+        id="nav-toggle"
+        aria-label="Toggle navigation"
+        src="img/expand-arrow.png"
+      />
+    </header>
+    <main id="main-container">Home</main>
+    <div id="modal-message">
+      <div class="modal-message-content">
+        <span class="fermer">X</span>
+        <h2>Succès!</h2>
+        <p></p>
+      </div>
+    </div>
+  </body>
+</html>
